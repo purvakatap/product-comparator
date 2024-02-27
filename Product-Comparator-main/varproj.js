@@ -1,0 +1,238 @@
+var product = [{
+    "id": 0,
+    "title": "",
+    "price": "",
+    "cpaciity": "",
+    "brand": "",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1200px-No-Image-Placeholder.svg.png"
+
+}, {
+    "id": 1,
+    "title": "Iphone 13",
+    "price": "65,999",
+    "capacity": "128gb,256gb,512gb",
+    "RAM": "4GB",
+    "brand": "Iphone",
+    "colours": "Starlight, Midnight, Blue, Pink, (PRODUCT)RED",
+    "height": "71.5x146.7x7.65mm",
+    "weight": "174.00",
+    "display": "6.1 inches",
+    "chip": "Apple A15 Bionic",
+    "camera": "Front camera 12-megapixel (f/2.2) Rare camera 12-megapixel (f/1.6) + 12-megapixel (f/2.4)",
+    "video": "4k video recording at 24fps,25fps,30fps",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "upto 50% charge in around 30 minutes with 20w apapter",
+    "battery": "3,227mAh lithium-ion battery",
+    "image": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iphone13_hero_geo_09142021_inline.jpg.large.jpg"
+
+
+}, {
+    "id": 2,
+    "title": "Iphone 13 pro",
+    "price": "112,900",
+    "capacity": "128GB,256GB,512GB 1TB",
+    "RAM": "6GB",
+    "brand": "Iphone",
+    "colours": "Graphite, Gold, Silver, Sierra Blue",
+    "height": "146.70 x 71.50 x 7.65",
+    "weight": "	204.00",
+    "display": "6.1 inches",
+    "chip": "Apple A15 Bionic",
+    "camera": "Front camera 12-megapixel (f/2.2) Rare camera 12-megapixel (f/1.5) + 12-megapixel (f/1.8) + 12-megapixel (f/2.8)",
+    "video": "cinematic mode for 1080p at 30fps,video recording upto 4k at 60fps",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "upto 50% charge in around 30 minutes with 20w apapter",
+    "battery": "3095mAh lithium-ion battery",
+    "image": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.slideshow-large_2x.jpg"
+
+
+}, {
+    "id": 3,
+    "title": "Iphone 13 pro max",
+    "price": "119,900",
+    "capacity": "128GB,256GB,512GB 1TB",
+    "RAM": "6GB",
+    "brand": "Iphone",
+    "colours": "Graphite, Gold, Silver, Sierra Blue",
+    "height": "160.80 x 78.10 x 7.65",
+    "weight": "	240.00",
+    "display": "6.70 inches",
+    "chip": "Apple A15 Bionic",
+    "camera": "Front camera 12-megapixel (f/2.2) Rare camera 12-megapixel (f/1.5) + 12-megapixel (f/1.8) + 12-megapixel (f/2.8)",
+    "video": "cinematic mode for 1080p at 30fps,video recording upto 4k at 60fps",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "upto 50% charge in around 30 minutes with 20w apapter",
+    "battery": "4325mAh lithium-ion battery",
+    "image": "https://media.ldlc.com/r1600/ld/products/00/05/93/66/LD0005936661_1.jpg"
+
+
+}, {
+    "id": 4,
+    "title": "Iphone 12",
+    "price": "48,900",
+    "capacity": "64GB",
+    "RAM": "4GB",
+    "brand": "Iphone",
+    "colours": "Black, Blue, Green, Red, White",
+    "height": "146.70 x 71.50 x 7.40",
+    "weight": "164.00",
+    "display": "6.10 inches",
+    "chip": "Apple A14 Bionic",
+    "camera": "Front camera 12-megapixel (f/2.2) Rare camera 12-megapixel (f/1.6)  + 12-megapixel (f/2.4)",
+    "video": "-",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "-",
+    "battery": "2815mAh lithium-ion battery",
+    "image": "https://m.media-amazon.com/images/I/317JiGToz-L.jpg"
+
+
+}, {
+    "id": 5,
+    "title": "Iphone 12 pro",
+    "price": "99,900",
+    "capacity": "64GB",
+    "RAM": "6GB",
+    "brand": "Iphone",
+    "colours": "Space Black, Silver, Gold, Deep Purple",
+    "height": "146.70 x 71.50 x 7.40",
+    "weight": "189.00",
+    "display": "6.10 inches",
+    "chip": "Apple A14 Bionic",
+    "camera": "Front camera 12-megapixel (f/2.2) Rare camera 12-megapixel (f/1.6)  + 12-megapixel (f/2.4) + 12-megapixel (f/2.0)",
+    "video": "-",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "-",
+    "battery": "2815mAh lithium-ion battery",
+    "image": "https://m.media-amazon.com/images/I/71xkMA+gvYL._SX522_.jpg"
+
+
+}, {
+    "id": 6,
+    "title": "Iphone 14 pro",
+    "price": "65,999",
+    "RAM": "6GB",
+    "capacity": "128GB,256GB,512GB,1TB",
+    "brand": "Iphone",
+    "colours": "Deep Purple, Gold, Silver, Space Black",
+    "height": "147.50 x 71.50 x 7.85mm",
+    "weight": "206.00",
+    "display": "6.10 inches",
+    "chip": "Apple A16 Bionic",
+    "camera": "Front camera 12-megapixel (f/1.9) Rare camera 48-megapixel (f/1.78) + 12-megapixel (f/2.2) + 12-megapixel(f/2.28)",
+    "video": "4k video recording at 24fps,25fps,30fps",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "-",
+    "battery": "4323mAh lithium-ion battery",
+    "image": "https://www.apple.com/newsroom/images/product/availability/geo/Apple-iPhone-14-Pro-Max-deep-purple-geo_inline.jpg.large.jpg"
+
+}, {
+    "id": 7,
+    "title": "Iphone 14 pro max",
+    "price": "65,999",
+    "capacity": "128gb,256gb,512gb",
+    "RAM": "6gb",
+    "brand": "Iphone",
+    "colours": "Space Black, Silver, Gold, Deep Purple",
+    "height": "160.70 x 77.60 x 7.85mm",
+    "weight": "240.00",
+    "display": "6.7 inches",
+    "chip": "Apple A16 Bionic",
+    "camera": "Front camera 12-megapixel (f/1.9) Rare camera 12-megapixel (f/1.78) + 12-megapixel (f/2.2) + 12-megapixel (f/1.78)",
+    "video": "4k video recording at 24fps,25fps,30fps",
+    "faceID": "yes",
+    "siri": "yes",
+    "power": "-",
+    "battery": "4323mAh lithium-ion battery",
+    "image": "https://media.croma.com/image/upload/v1662655728/Croma%20Assets/Communication/Mobiles/Images/261978_zs5j6h.png"
+}, {
+    "id": 8,
+    "title": "OnePlus 10 pro",
+    "price": "61,999",
+    "capacity": "128gb,256gb,512gb",
+    "RAM": "8GB,12GB",
+    "brand": "OnePlus",
+    "colours": "Emerald Forest, Volcanic Black",
+    "height": "163.00 x 73.90 x 8.55mm",
+    "weight": "240.00",
+    "display": "6.7 inches",
+    "chip": "Qualcomm Snapdragon 8 Gen 1",
+    "camera": "Front camera 32-megapixel  Rare camera 50-megapixel + 48-megapixel + 8-megapixel",
+    "video": "available",
+    "faceID": "yes",
+    "siri": "no",
+    "power": "-",
+    "battery": "5000mAh battery",
+    "image": "https://m.media-amazon.com/images/I/61mIUCd-37L._SX679_.jpg"
+}, {
+    "id": 9,
+    "title": "OnePlus 10T ",
+    "price": "49,999",
+    "capacity": "128gb,256gb",
+    "RAM": "8GB,12GB,16GB",
+    "brand": "OnePlus",
+    "colours": "Jade Green, Moonstone Black",
+    "height": "160.70 x 77.60 x 7.85mm",
+    "weight": "240.00",
+    "display": "6.7 inches",
+    "chip": "Qualcomm Snapdragon 8+ Gen 1",
+    "camera": "Front camera 16-megapixel  Rare camera 50-megapixel + 8-megapixel + 2-megapixel",
+    "video": "available",
+    "faceID": "yes",
+    "siri": "no",
+    "power": "-",
+    "battery": "4800mAh battery",
+    "image": "https://m.media-amazon.com/images/I/71flXufDnbL._SX679_.jpg"
+}, {
+    "id": 10,
+    "title": "OnePlus 9 pro",
+    "price": "49,999",
+    "capacity": "128gb,256gb,",
+    "RAM": "8GB,12GB",
+    "brand": "OnePlus",
+    "colours": "Astral Black, Morning Mist, Pine Green",
+    "height": "163.20 x 73.60 x 8.70mm",
+    "weight": "197.00",
+    "display": "6.7 inches",
+    "chip": "Qualcomm Snapdragon 888",
+    "camera": "Front camera 16-megapixel  Rare camera 50-megapixel + 8-megapixel + 2-megapixel",
+    "video": "available",
+    "faceID": "yes",
+    "siri": "no",
+    "power": "-",
+    "battery": "4500mAh lithium-ion battery",
+    "image": "https://m.media-amazon.com/images/I/612ytK4luvL._SL1500_.jpg"
+}, {
+    "id": 11,
+    "title": "OnePlus Nord N200",
+    "price": "49,999",
+    "capacity": "64GB,",
+    "RAM": "4GB",
+    "brand": "OnePlus",
+    "colours": "Blue Quantum",
+    "height": "163.10 x 74.90 x 8.30mm",
+    "weight": "189.00",
+    "display": "6.49 inches",
+    "chip": "Qualcomm Snapdragon 480",
+    "camera": "Front camera 16-megapixel  Rare camera 13-megapixel + 2-megapixel + 2-megapixel",
+    "video": "available",
+    "faceID": "yes",
+    "siri": "no",
+    "power": "-",
+    "battery": "5000mAh lithium-ion battery",
+    "image": "https://m.media-amazon.com/images/I/71DCZOdq92S.jpg"
+}
+
+
+
+
+
+
+
+
+]
